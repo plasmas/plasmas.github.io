@@ -8,7 +8,7 @@
 <body>
     <h1>Redirect destination</h1>
     <script>
-        console.log(window)
+        console.log("this window", window)
         if (window.opener) {
             console.log('opened by: ', window.opener)
             window.opener.postMessage(window.location.href, '*');
