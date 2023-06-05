@@ -8,7 +8,10 @@
 <body>
     <script>
         console.log(window)
-        window.opener.postMessage(window.location.href, '*');
+        if (window.opener) {
+            console.log('opened by: ', window.opener.location.href)
+            window.opener.postMessage(window.location.href, '*');
+        }
     </script>
 </body>
 
