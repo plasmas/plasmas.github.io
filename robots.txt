@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.yqwong.comblank/sitemap.xml
+Sitemap: https://www.yqwong.com/sitemap.xml
