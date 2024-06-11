@@ -2,11 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+description: #Materials for courses you taught. Replace this text with your description.
+nav: false
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## University of Pennsylvania
 
-Organize your courses by years, topics, or universities, however you like!
+- CIS 5550: Internet and Web Systems, Teaching Assistant, Fall 2023.
+- CIS 5050: Software Systems, Teaching Assistant, Spring 2024.
+
+<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like! -->

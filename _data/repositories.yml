@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - plasmas
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Anime4KWebBoost/Anime4K-WebGPU
+  - Anime4KWebBoost/Anime4K-Web-Demo
+  - plasmas/Project4-CUDA-Denoiser
+  
