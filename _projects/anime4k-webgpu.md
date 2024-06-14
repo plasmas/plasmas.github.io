@@ -10,6 +10,12 @@ related_publications: false
 
 [Demo](https://anime4k-webgpu-demo.fly.dev/) \| [Source](https://github.com/Anime4KWebBoost/Anime4K-WebGPU)
 
+## Highlights
+
+- **Real-time Upscaling**: Full client-side, cross-platform, hardware accelerated video upscaling in your browser.
+- **WebGPU Compute Shaders**: Utilizes WebGPU compute shaders for fast and efficient processing.
+- **Easy Integration**: Simple API for easy integration into your WebGPU pipeline.
+
 <div align="center">
 <img
   src='/assets/img/projects/anime4k-webgpu/intro.gif'
@@ -17,14 +23,6 @@ related_publications: false
 />
 <p>Real-time Upscaling. Original (left) vs. Upscaled (right)</p>
 </div>
-
-University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project
-
-Authors (alphabetical order with equal contribution):
-
-- Ruijun(Daniel) Zhong [LinkedIn](https://www.linkedin.com/in/daniel-z-73158b152/) \| [Personal Website](https://www.danielzhongportfolio.com/)
-- Tong Hu [LinkedIn](https://www.linkedin.com/in/tong-hu-5819a122a/) \| [Personal Website](https://www.tong-hu.com/)
-- Yuanqi Wang [LinkedIn](https://www.linkedin.com/in/yuanqi-wang-414b26106/) \| [GitHub](https://github.com/plasmas) \| [Personal Website](https://www.yqwong.com/)
 
 ## Introduction
 
@@ -304,7 +302,15 @@ This project references a variety of resources:
 
 ## Project Info
 
-This project is part of UPenn CIS5650 final project. Following are related resources:
+University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project
+
+Authors (alphabetical order with equal contribution):
+
+- Ruijun(Daniel) Zhong [LinkedIn](https://www.linkedin.com/in/daniel-z-73158b152/) \| [Personal Website](https://www.danielzhongportfolio.com/)
+- Tong Hu [LinkedIn](https://www.linkedin.com/in/tong-hu-5819a122a/) \| [Personal Website](https://www.tong-hu.com/)
+- Yuanqi Wang [LinkedIn](https://www.linkedin.com/in/yuanqi-wang-414b26106/) \| [GitHub](https://github.com/plasmas) \| [Personal Website](https://www.yqwong.com/)
+
+Following are related resources:
 
 - [Project Pitch Presentation](https://docs.google.com/presentation/d/1QKqbgSwnxgH9Htm_SM3CYOdL-5bIGNmq2VT5xSiAARs/edit?usp=sharing)
 - [Milestone 1 Presentation](https://docs.google.com/presentation/d/1vmPm16IPomAWMxoYmIAXXQBsLOk9jNHT3xhsdn3K37Q/edit?usp=sharing)

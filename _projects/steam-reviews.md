@@ -4,7 +4,7 @@ title: Steam Reviews Analyzer
 description: Web app for browsing and analyzing Steam games and reviews. Leveraging Svelte, Tailwind CSS, Express, MySQL, MongoDB, and Redis.
 img: /assets/img/projects/steam-reviews/thumbnail.png
 importance: 1
-category: GPU
+category: webapps
 related_publications: false
 ---
 
@@ -94,7 +94,7 @@ Technologies of the backend include:
 
 ---
 
-## Database
+## Database Design
 
 MySQL is used to store the majority of our data, and the ER diagram is as follows:
 
