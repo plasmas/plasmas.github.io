@@ -16,8 +16,15 @@ _Per course policy, access to code is only granted upon request._
 
 ## Highlights
 
-- **HTTP Server**. A HTTP server built from scratch using POSIX standards. Supports GET, POST, PUT, DELETE, OPTION requests. Usage similar to Express.js.
-- **Mail Server**. A mail server that supports sending and receiving emails. Uses SMTP and POP3 protocols.
+- **HTTP Server**: Built from scratch using POSIX standards, supporting GET, POST, PUT, DELETE, and OPTION requests. Usage similar to Express.js.
+- **Mail Server**: Supports sending and receiving emails using SMTP and POP3 protocols.
+- **Storage Service**: Provides functionality for file system operations including uploading, downloading, creating, deleting, renaming, and moving files and folders.
+- **Dynamic Load Balancing**: Dispatcher supports dynamic joining and leaving of front-end servers, with versatile load-balancing algorithms (random selection and least load first).
+- **Multithreaded Frontend Server**: Handles multiple client connections simultaneously with "Keep-Alive" and chunked encoding support.
+- **KV Store**: Distributed key-value store with a master node and clusters of replicas, supporting GET, PUT, CPUT, and DELETE operations. Provides fault tolerance and sequential consistency.
+- **Cookie and Session Management**: Secure authentication and session management using cookies, enabling user identity verification and access control.
+- **Scalable Architecture**: Easily scalable by adding more clusters to serve additional tablets, with efficient load balancing and fault tolerance mechanisms.
+- **Unified Controller Interface**: Simplified controller registration and management, ensuring consistent request handling and response composition across different services.
 
 <div align="center">
 <img
