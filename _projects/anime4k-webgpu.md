@@ -34,7 +34,7 @@ There are 2 ways to use this package:
 
 ### 1. Render Wrapper
 
-This is for frontend devs who do not wish to tap into WebGPU too much. An React example can be found [here](./examples/react-renderer.tsx).
+This is for frontend devs who do not wish to tap into WebGPU too much. An React example can be found [here](https://github.com/Anime4KWebBoost/Anime4K-WebGPU/blob/main/examples/react-renderer.tsx).
 
 You only need the `render` function which will setup all the rendering from a video element to a canvas element:
 
