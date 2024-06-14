@@ -10,6 +10,14 @@ related_publications: false
 
 [Demo](https://anime4k-webgpu-demo.fly.dev/) \| [Source](https://github.com/Anime4KWebBoost/Anime4K-WebGPU)
 
+<div align="center">
+<img
+  src='/assets/img/projects/anime4k-webgpu/intro.gif'
+  style="width: 60%; height: auto;"
+/>
+<p>Real-time Upscaling. Original (left) vs. Upscaled (right)</p>
+</div>
+
 University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project
 
 Authors (alphabetical order with equal contribution):
@@ -20,13 +28,13 @@ Authors (alphabetical order with equal contribution):
 
 ## Introduction
 
-![image](/assets/img/projects/anime4k-webgpu/intro.gif)
-
 An [Anime4K](https://github.com/bloc97/Anime4K) implementation for WebGPU, featuring video enhancements including upscaling, denoising, and deblurring. Computing is done entirely on the client side using WebGPU compute shaders. Functionality of this implementation is published as an [NPM package](https://www.npmjs.com/package/anime4k-webgpu), and can be easily incorporated into your WebGPU pipeline.
 
 Take a look at our web demo at https://anime4k-webgpu-demo.fly.dev/ ([Source](https://github.com/Anime4KWebBoost/Anime4K-Web-Demo))
 
 Note: your browser must support WebGPU. See this [list](https://caniuse.com/webgpu) for compatibility.
+
+---
 
 ## Usage
 
@@ -172,6 +180,8 @@ This package currently support the following pipelines and presets (items marked
   - ✅ ModeBB
   - ✅ ModeCA
 
+---
+
 ## Performance Analysis
 
 ### Visualization Comparisons
@@ -272,11 +282,15 @@ However, an exception is observed with the upscale GAN x4 when applied to a 1080
 <p>Figure 6. GPU time for different effects with different resolution videos</p>
 </div>
 
+---
+
 ## Future Improvements
 
 - Use `read-write` storage texture instead of `write-only` storage texture (Not yet supported in Chrome stable) for lower VRAM usage.
 
 - Enhancing the Pipeline: Currently, our pipelines operate sequentially. As a future enhancement, we plan to restructure the system so that pipelines which are independent of each other can run concurrently, in parallel. This will optimize our process efficiency and performance.
+
+---
 
 ## Reference
 
@@ -285,6 +299,8 @@ This project references a variety of resources:
 - **Multimedia Demonstrations**
   - Demo Video: Miss Kobayashi's Dragon Maid: [YouTube Video](https://www.youtube.com/watch?v=NQF3a6A7kcQ)
   - Demo Image: Higurashi 360P from Anime4K [(repo)](https://github.com/bloc97/Anime4K/tree/master)
+
+---
 
 ## Project Info
 
@@ -295,6 +311,8 @@ This project is part of UPenn CIS5650 final project. Following are related resou
 - [Milestone 2 Presentation](https://docs.google.com/presentation/d/1gor5TFMMb6vhkBVJBjttUPvZFZvytHT6YuLI_zqOfAc/edit?usp=sharing)
 - [Milestone 3 Presentation](https://docs.google.com/presentation/d/1nEbmPhS-CbPhUhzjQtkeCNdFZiAGyXShSNRu5my55iY/edit?usp=sharing)
 - [Final Presentation](https://docs.google.com/presentation/d/1DGrMEzUCkYuYvQE-T6p7vRvCusKvNPK1/edit#slide=id.g1ed29a20d86_4_11)
+
+---
 
 ## Credits
 
