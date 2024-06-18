@@ -4,7 +4,7 @@ title: Steam Reviews Analyzer
 description: Web app for browsing and analyzing Steam games and reviews. Leveraging Svelte, Tailwind CSS, Express, MySQL, MongoDB, and Redis.
 img: /assets/img/projects/steam-reviews/thumbnail.png
 importance: 1
-category: webapps
+category: TypeScript
 related_publications: false
 ---
 
