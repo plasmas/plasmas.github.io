@@ -95,10 +95,10 @@ The path tracer has support for basic BSDFs, including pure diffusive (Lambertia
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/pure_diffusive.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/pure_diffusive.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/projects/cuda-pathtracer/pure_specular.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/cuda-pathtracer/pure_specular.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -201,10 +201,10 @@ Here is a side-by-side comparison of edges:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/w_antialiasing.png" title="With Antialiasing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/w_antialiasing.png" title="With Antialiasing" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/wo_antialiasing.png" title="Without Antialiasing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/wo_antialiasing.png" title="Without Antialiasing" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -241,10 +241,10 @@ Focal distance is used to control the focal point and which objects should be sh
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/focal_left.png" title="Focal Length 12.38" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/focal_left.png" title="Focal Length 12.38" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/focal_right.png" title="Focal Length 8.08" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/focal_right.png" title="Focal Length 8.08" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -255,10 +255,10 @@ Aperture diameter is used to control the blur degree. Larger aperture means more
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/aperture_1.png" title="Aperture Diameter 1.0" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/aperture_1.png" title="Aperture Diameter 1.0" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/aperture_5.png" title="Aperture Diameter 5.0" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/aperture_5.png" title="Aperture Diameter 5.0" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -273,10 +273,10 @@ Fish-eye camera and Panorama camera are also available for this path tracer, by 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/fisheye.png" title="Fish Eye Camera" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/fisheye.png" title="Fish Eye Camera" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/panorama.png" title="Panorama Camera" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-pathtracer/panorama.png" title="Panorama Camera" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">

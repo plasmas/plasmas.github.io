@@ -51,10 +51,10 @@ To properly simulate grass movement, a combination of recovery, gravity, and win
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/no_force.png" title="No Force" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/no_force.png" title="No Force" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/gravity.png" title="Gravity Only" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/gravity.png" title="Gravity Only" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -63,10 +63,10 @@ To properly simulate grass movement, a combination of recovery, gravity, and win
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/recovery.png" title="Gravity + Recovery" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/recovery.png" title="Gravity + Recovery" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/wind.gif" title="Gravity + Recovery + Wind" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/wind.gif" title="Gravity + Recovery + Wind" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -83,10 +83,10 @@ To improve performance, different culling methods are used to discard blades tha
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/no_culling.gif" title="No Culling" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/no_culling.gif" title="No Culling" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/orient_culling.gif" title="Orientation Culling" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/orient_culling.gif" title="Orientation Culling" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -95,10 +95,10 @@ To improve performance, different culling methods are used to discard blades tha
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/frustrum_culling.gif" title="Frustrum Culling" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/frustrum_culling.gif" title="Frustrum Culling" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/dist_culling.gif" title="Distance Culling" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulkan-grass/dist_culling.gif" title="Distance Culling" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">

@@ -18,10 +18,10 @@ _Tested on: Windows 11, i5-11600K @ 3.91GHz 32GB, RTX 4090 24GB (Personal Deskto
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/original.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/original.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/denoised_65x65.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/denoised_65x65.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -46,7 +46,7 @@ To unify the benchmarks, without explicit mention, all tests are performed using
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/time_filtersize.svg" title="Time vs. Filter Size" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/time_filtersize.svg" title="Time vs. Filter Size" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -61,13 +61,13 @@ The denoise results at each filter size is shown below:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter5.png" title="5x5 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter5.png" title="5x5 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter9.png" title="9x9 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter9.png" title="9x9 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter17.png" title="17x17 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter17.png" title="17x17 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -76,13 +76,13 @@ The denoise results at each filter size is shown below:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter33.png" title="33x33 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter33.png" title="33x33 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter65.png" title="65x65 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter65.png" title="65x65 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter129.png" title="129x129 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter129.png" title="129x129 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -91,7 +91,7 @@ The denoise results at each filter size is shown below:
 
 <div class="row" style="width: 34%">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter267.png" title="257x257 Filter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/filter267.png" title="257x257 Filter" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -106,7 +106,7 @@ Aside from filter size (number of iterations), the resolution of the input image
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/time_resolution.svg" title="Time vs. Filter Size" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/time_resolution.svg" title="Time vs. Filter Size" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -121,10 +121,10 @@ To understand how denoising produces better images with fewer iterations, we fir
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -133,10 +133,10 @@ To understand how denoising produces better images with fewer iterations, we fir
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diff_no_denoise.png" title="Origin Diff" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diff_no_denoise.png" title="Origin Diff" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diff_denoise.png" title="Denoised Diff" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diff_denoise.png" title="Denoised Diff" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -151,10 +151,10 @@ To compare the effect of denoising on different material surfaces, we examine pe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Specular Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Specular Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Specular Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Specular Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -163,10 +163,10 @@ To compare the effect of denoising on different material surfaces, we examine pe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diffuse_no_denoise.png" title="Diffusive Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diffuse_no_denoise.png" title="Diffusive Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diffuse_denoised.png" title="Diffusive Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/diffuse_denoised.png" title="Diffusive Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -181,10 +181,10 @@ We also test the denoiser's effectiveness on different scenes. In this case, we 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Cornell Ceiling Light Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_no_denoise.png" title="Cornell Ceiling Light Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Cornell Ceiling Light Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/iter10_denoise.png" title="Cornell Ceiling Light Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -193,10 +193,10 @@ We also test the denoiser's effectiveness on different scenes. In this case, we 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/cornell_no_denoise.png" title="Cornell Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/cornell_no_denoise.png" title="Cornell Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/cornell_denoise.png" title="Cornell Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/cornell_denoise.png" title="Cornell Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">

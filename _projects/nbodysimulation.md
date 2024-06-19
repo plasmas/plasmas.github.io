@@ -12,16 +12,21 @@ related_publications: false
 
 _Per course policy, access to code is only granted upon request._
 
-Video Presentation: https://youtu.be/khf67kJt4hQ
+<!-- https://youtu.be/khf67kJt4hQ -->
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube-nocookie.com/embed/khf67kJt4hQ" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Result Showcase
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/nbodysimulation/circular.gif" title="Planetary Simulation of 2 bodies" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/nbodysimulation/circular.gif" title="Planetary Simulation of 2 bodies" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/nbodysimulation/multiple.gif" title="Simulation of 100 particles of same mass" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/nbodysimulation/multiple.gif" title="Simulation of 100 particles of same mass" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +89,7 @@ This data structure can help us approximate the gravity force very efficiently. 
   src='/assets/img/projects/nbodysimulation/findingCoM.gif'
   style="width: 100%; height: auto;"
 />
-<p>Credit: https://jheer.github.io/barnes-hut/</p>
+<p>Credit: <a href="https://jheer.github.io/barnes-hut/">The Barnes-Hut Approximation</a></p>
 </div>
 
 The specific implementation for this method is to recursively build up centroids at each level when we traverse the quad tree in post-order. But one thing that we should note is that this approximation does not work when the particles are too close to each other. Therefore, we define a parameter $$\theta$$ to be the cutoff point, and if the ratio of the length of the side of the quadrant to the distance between the two particles is greater than this value, i.e. the two particles are too close, we will use pairwise calculation instead of this approximation. Because the maximum depth we will reach is the height of the quad tree, this method yields $$O(\log n)$$ time for calculating the gravity for each particle, and cumulatively $$O(n \log n)$$ time.

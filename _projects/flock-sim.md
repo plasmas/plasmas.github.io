@@ -12,36 +12,21 @@ related_publications: false
 
 _Tested on: Windows 11, i5-11600K @ 3.91GHz 32GB, RTX 2060 6GB (Personal Desktop)_
 
-## Visualizations (GIFs)
+## Visualizations
 
-### Simulation of 5k boids
-
-<div align="center">
-<img
-  src='/assets/img/projects/flock-sim/b_5k.gif'
-  style="width: 100%; height: auto;"
-/>
-<p>5000 Boids simulation</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/flock-sim/b_5k.gif" title="5000 Boids simulation" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/flock-sim/b_10k.gif" title="10k Boids simulation" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/flock-sim/b_20k.gif" title="20k Boids simulation" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
 </div>
-
-### Simulation of 10k boids
-
-<div align="center">
-<img
-  src='/assets/img/projects/flock-sim/b_10k.gif'
-  style="width: 100%; height: auto;"
-/>
-<p>10k Boids simulation</p>
-</div>
-
-### Simulation of 20k boids
-
-<div align="center">
-<img
-  src='/assets/img/projects/flock-sim/b_20k.gif'
-  style="width: 100%; height: auto;"
-/>
-<p>20k Boids simulation</p>
+<div class="caption">
+    Left: 5000 Boids simulation; Middle: 10k Boids simulation; Right: 20k Boids simulation.
 </div>
 
 ## Performance Analysis
