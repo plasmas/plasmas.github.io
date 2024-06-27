@@ -3,7 +3,7 @@ layout: page
 title: GPU Accelerated Stream Compaction
 description: CPU & GPU implementation of stream compaction, written in C++ and CUDA.
 img: /assets/img/projects/stream-compaction/figure-39-2.jpg
-importance: 1
+importance: 4
 category: C++
 related_publications: false
 ---

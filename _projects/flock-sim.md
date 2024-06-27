@@ -3,7 +3,7 @@ layout: page
 title: CUDA Flocking Simulation
 description: A CUDA-based flocking simulation, written in C++.
 img: /assets/img/projects/flock-sim/thumbnail.png
-importance: 1
+importance: 5
 category: C++
 related_publications: false
 ---
