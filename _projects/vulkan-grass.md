@@ -3,7 +3,7 @@ layout: page
 title: Vulkan Grass Rendering
 description: Efficient grass rendering using Vulkan and C++, using quadratic Bézier curves to model grass blades.
 img: /assets/img/projects/vulkan-grass/thumbnail.png
-importance: 6
+importance: 7s
 category: C++
 related_publications: false
 ---
