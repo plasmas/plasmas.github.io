@@ -6,6 +6,9 @@ img: /assets/img/projects/cuda-denoiser/thumbnail.png
 importance: 3
 category: C++
 related_publications: false
+images:
+  compare: true
+  slider: true
 ---
 
 [Source](https://github.com/plasmas/Project4-CUDA-Denoiser)
@@ -16,23 +19,19 @@ _Tested on: Windows 11, i5-11600K @ 3.91GHz 32GB, RTX 4090 24GB (Personal Deskto
 
 # Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/original.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cuda-denoiser/denoised_65x65.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Left: Original (10 iters, 8 depth). Right: Denoised (filter size 65x65).
-</div>
-
 A CUDA-based A-Trous denoiser for path tracers.
 
 In real-time rendering, even modern machines don't have the capability to perform an sufficient number of path tracing iterations to achieve a photo-realistic image. Within a few iterations, the image generated can have a lot of noise, resulting in high variance. Therefore, denoising is need to smooth the image. A naive Gaussian blur can indeed smooth the image, but will blur across edges. Also, using a large Gaussian kernel is expensive when performing convolution. Therefore, we use the A-Trous wavelet filter with an edge-stopping function.
 
 This denoiser implements the method by [Dammertz et al.](https://jo.dreggn.org/home/2010_atrous.pdf), with a few tweaks.
+
+<img-comparison-slider>
+  {% include figure.liquid path="assets/img/projects/cuda-denoiser/original.png" title="Original (10 iters, 8 depth)" class="img-fluid rounded z-depth-1" slot="first" %}
+  {% include figure.liquid path="assets/img/projects/cuda-denoiser/denoised_65x65.png" title="Denoised (filter size 65x65)" class="img-fluid rounded z-depth-1" slot="second" %}
+</img-comparison-slider>
+<div class="caption">
+    Left: Original (10 iters, 8 depth). Right: Denoised (filter size 65x65).
+</div>
 
 ---
 
