@@ -3,8 +3,8 @@ layout: page
 title: CUDA Denoiser
 description: Denoiser for Monte Carlo Path Tracer using CUDA, C++
 img: /assets/img/projects/cuda-denoiser/thumbnail.png
-importance: 3
-category: C++
+importance: 2
+category: Computer Graphics
 related_publications: false
 images:
   compare: true

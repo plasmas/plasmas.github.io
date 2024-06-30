@@ -4,7 +4,7 @@ title: PennCloud
 description: Cloud-based platform with mail, storage services. Built with C++ using pure POSIX standards.
 img: /assets/img/projects/penncloud/architecture.png
 importance: 1
-category: C++
+category: System Programming
 related_publications: false
 ---
 

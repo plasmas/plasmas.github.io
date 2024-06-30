@@ -4,7 +4,7 @@ title: Group-Based Social Network Web App
 description: Single-page application for group-based social networking similar to Reddit, built with React and JavaScript
 img: /assets/img/projects/gingerapp/thumbnail.png
 importance: 3
-category: TypeScript
+category: Web Development
 related_publications: false
 ---
 

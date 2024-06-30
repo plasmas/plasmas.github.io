@@ -14,7 +14,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 projects: true
-display_categories: [C++, TypeScript, Java]
+display_categories: [Web Development, System Programming, Scientific Computing, Computer Graphics]
 ---
 
 Hi! I recently graduated from the University of Pennsylvania with a Master's degree in Computer and Information Science (MSE/CIS). I'm currently seeking full-time entry-level Software Development Engineer roles. Before UPenn, I earned my Bachelor's degree from Shanghai Jiao Tong University in 2019.

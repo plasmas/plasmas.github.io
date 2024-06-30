@@ -3,8 +3,8 @@ layout: page
 title: N-Body Simulation
 description: N-Body Simulation in Java, using Barnes–Hut Simulation
 img: /assets/img/projects/nbodysimulation/thumbnail.png
-importance: 2
-category: Java
+importance: 3
+category: Scientific Computing
 related_publications: false
 ---
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: # A growing collection of your cool projects.
 nav: false
 nav_order: 3
-display_categories: [C++, TypeScript, Java]
+display_categories: [Web Development, System Programming, Scientific Computing, Computer Graphics]
 horizontal: false
 ---
 

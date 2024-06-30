@@ -3,8 +3,8 @@ layout: page
 title: Mini-Minecraft
 description: A simple Minecraft clone written in C++ and OpenGL.
 img: /assets/img/projects/miniminecraft/thumbnail.png
-importance: 6
-category: C++
+importance: 3
+category: Computer Graphics
 related_publications: false
 ---
 

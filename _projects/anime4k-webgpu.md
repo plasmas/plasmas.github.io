@@ -4,7 +4,7 @@ title: Anime4K for WebGPU
 description: Client-side video upscaling in your browser. Built with WebGPU, WGSL, and TypeScript.
 img: /assets/img/projects/anime4k-webgpu/thumbnail.png
 importance: 1
-category: TypeScript
+category: Web Development
 related_publications: false
 ---
 

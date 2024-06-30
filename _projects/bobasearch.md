@@ -3,8 +3,8 @@ layout: page
 title: BobaSearch
 description: Distributed analytics platform and search engine written in Java, featuring MapReduce, PageRank, and TF-IDF algorithms.
 img: /assets/img/projects/bobasearch/thumbnail.png
-importance: 1
-category: Java
+importance: 2
+category: System Programming
 related_publications: false
 ---
 

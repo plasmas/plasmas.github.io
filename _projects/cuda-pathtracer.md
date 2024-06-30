@@ -3,8 +3,8 @@ layout: page
 title: CUDA Pathtracer
 description: Monte Carlo pathTracer written in CUDA, C++
 img: /assets/img/projects/cuda-pathtracer/showcase.png
-importance: 2
-category: C++
+importance: 1
+category: Computer Graphics
 related_publications: false
 ---
 
