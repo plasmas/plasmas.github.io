@@ -2,7 +2,7 @@
 layout: page
 title: Mini-Minecraft
 description: A simple Minecraft clone written in C++ and OpenGL.
-img: /assets/img/placeholder.jpg
+img: /assets/img/projects/miniminecraft/thumbnail.png
 importance: 6
 category: C++
 related_publications: false
@@ -15,7 +15,7 @@ _Per course policy, access to code is only granted upon request._
 <!-- https://youtu.be/khf67kJt4hQ -->
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube-nocookie.com/embed/khf67kJt4hQ" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/HfXyh-OsQwU?si=W8TN_fuHw5Uz1OXG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -41,13 +41,13 @@ The terrain is procedurally generated using a simple Perlin noise algorithm. The
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Mountain & Snow land biome" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/mountain_snowland.gif" title="Mountain & Snow land biome" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Grassland biome" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/grassland.gif" title="Grassland biome" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Dessert biome" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/dessert.gif" title="Dessert biome" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ Also, there is a cave system in this world, 3D perlin noise functions are used w
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Lava Cave System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/cave.gif" title="Lava Cave System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -74,18 +74,6 @@ We used multithreading primitives in `Qt` to load and generate chunks in paralle
 - VBOWorker: Responsible for creates the VBO data for a given chunk and pushed to a vector which will be passed to GPU in main thread.
 
 In general, each chunk's type is computed once in a worker thread, and persists for the lifecycle of the program. The VBO data, however, is generated based on the player's position and is updated every frame. Chunks which are not visible to the player are offloaded from the GPU, and chunks which are visible are generated in worker threads and loaded into the GPU by the main thread.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Fast Terrain Generation & Loading" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Terrain Offloading" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Left: Fast Terrain Generation & Loading; Right: Terrain Offloading.
-</div>
 
 ---
 
@@ -105,13 +93,13 @@ To simulate the natural movement of water, a **sine function** was used to disto
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Animated Texture of Lava" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/lava.gif" title="Animated Texture of Lava" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Day-Night Cycle" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/day_night_cycle.gif" title="Day-Night Cycle" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Water Waves" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/water.gif" title="Water Waves" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -128,14 +116,11 @@ Procedural grass coloring was added to diversify the environment, making it more
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Distance Fog" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Procedural Grass Coloring" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/distance_fog.gif" title="Distance Fog" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Left: Distance Fog; Right: Procedural Grass Coloring.
+    Distance Fog
 </div>
 
 ---
@@ -156,10 +141,10 @@ On mouse button click, cast a ray of length 3 from camera position. To delete a 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Collision Detection" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/collision.gif" title="Collision Detection" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/placeholder.jpg" title="Block Breaking & Placing" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/projects/miniminecraft/blocks.gif" title="Block Breaking & Placing" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
